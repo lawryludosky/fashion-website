@@ -1,0 +1,110 @@
+/*****************************
+
+COULEURS
+
+*****************************/
+
+/*bleu:#0001a2
+orange:#f7c670
+gris foncé:#363636
+gris clair:#d7d7d7;
+*/
+
+/*****************************
+
+GENERAL
+
+*****************************/
+
+* {
+	box-sizing:border-box;
+}
+
+.page {
+	max-width:1100px;
+	width:100%;
+	margin:0 auto;
+	padding:0 5%;
+}
+
+body,
+html {
+	margin:0;
+	padding:0;
+	width:100%;
+}
+
+html {
+	padding:0;
+	margin:0;
+
+}
+
+.row {
+	/*margin-right:0 !important;*/
+}
+
+/*****************************
+
+HEADER :CONTACT
+
+*****************************/
+
+#nav-contact {
+	padding:15px 0 5px 0;
+	background-color:#0001a2;
+	color:white;
+	text-align: center;
+	font-size:0.8em;
+	height:45px;
+}
+
+#reseaux-sociaux ul {
+	display:flex;
+	justify-content:space-around;
+	margin-left:-40px;
+}
+
+#reseaux-sociaux li {
+	display:inline-block;
+}
+
+#reseaux-sociaux a {
+	color:white;
+	text-decoration:none;
+}
+
+/*****************************
+
+HEADER : MENU
+
+*****************************/
+
+#menu {
+	background-color:white;
+	padding:20px 0;
+}
+
+#menu ul {
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	margin-bottom:0;
+}
+
+#menu li {
+	display:inline-block;
+	vertical-align:middle;
+}
+
+#menu a {
+	color:#f7c670;
+	text-decoration:none;
+}
+
+#menu img {
+	display:block;
+	margin:0 auto;
+	max-width:100%;
+	width:60%;
+}
